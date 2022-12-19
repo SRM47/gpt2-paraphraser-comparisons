@@ -3,7 +3,7 @@ Finetune GPT-2 Models for paraphrasing and compare them to PEGASUS and BART
 
 
 ## Create Datasets
-Use the script ``create_dataset.ipynb`` to create the dataset in the file ``combined.txt``. Each line contains the following: ``<s>S</s>>>>><p>P</p>, where ``S`` and ``P`` are paraphrased sentences. Sentences pairs are gathered from three different datasets available on huggingface.co
+Use the script ``create_dataset.ipynb`` to create the dataset in the file ``combined.txt``. Each line contains the following: ``<s>S</s>>>>><p>P</p>``, where ``S`` and ``P`` are paraphrased sentences. Sentences pairs are gathered from three different datasets available on huggingface.co
 
 - TaPaCo (en) https://huggingface.co/datasets/tapaco
 - Google PAWS https://huggingface.co/datasets/paws
