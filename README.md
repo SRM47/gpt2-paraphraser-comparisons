@@ -21,4 +21,7 @@ Models available on huggingface:
 ## Evaluate Models
 To evaluate the finetuned GPT-2 models and other models, use the ``eval_models.ipynb`` script
 
+## Results Analysis
+See the paper ``final.pdf`` to read about the results of this investigation
+
 
