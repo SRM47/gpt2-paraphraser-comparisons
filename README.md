@@ -22,6 +22,8 @@ Models available on huggingface:
 To evaluate the finetuned GPT-2 models and other models, use the ``eval_models.ipynb`` script
 
 ## Results Analysis
-See the paper ``final.pdf`` to read about the results of this investigation
+See the paper ``final.pdf`` to read about the results of this investigation.
+
+As of recent, large language models, particularly a part of the Generative Pre-Trained series, have demonstrated themselves to be powerful text generation models. Models such as GPT-2 (Radford et al., 2018) reveal that large language models have strong zero-shot capabilities in a variety of downstream natural language pro- cessing tasks. Other models, built for sequence to sequence modeling, such as PEGASUS, and BART have profound text summarization capa- bilities which can be adapted to paraphrasing. In this paper, I present an effective method for adapting GPT-2 for paraphrasing, and compare its paraphrasing outputs to fine tuned BART and PEGASUS based models from huggingface. Results show that GPT-2 based models produce less diverse paraphrases than PEGASUS and BART; GPT-2 based paraphrases do not alter lexical form as much as PEGASUS does.
 
 
